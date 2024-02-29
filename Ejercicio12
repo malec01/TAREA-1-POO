@@ -1,0 +1,24 @@
+package com.mycompany.mavenproject3;
+
+public class Mavenproject3 {
+
+    public static void main(String[] args) {
+        double horas_trabajadas, valor_hora;
+        double retencion, porcentaje_retencion;
+        double salario_bruto, salario_neto;
+        valor_hora = 5000;
+        horas_trabajadas = 48;
+        porcentaje_retencion = 12.5;
+        salario_bruto = valor_hora*(horas_trabajadas);
+        retencion = (salario_bruto)*(0.125);
+        salario_neto = salario_bruto - retencion;
+        System.out.println("Las horas horas trabajadas fueron:" + horas_trabajadas);
+        System.out.println("El valor por hora es:" + valor_hora);
+        System.out.println("El porcentaje de retención es:" + porcentaje_retencion);
+        System.out.println("El valor de la retención es:" + retencion);
+        System.out.println("El salario bruto es:" + salario_bruto);
+        System.out.println("El salario neto es:" + salario_neto);
+        
+             
+    }
+}

@@ -1,0 +1,34 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.mavenproject2;
+
+/**
+ *
+ * @author Alejandra Castaño
+ */
+public class Mavenproject2 {
+
+    public static void main(String[] args) {
+      int juan = 9;
+      int edana, edalbert, edmama;
+      edalbert = (2*juan)/3;
+      edana = (4*juan)/3;
+      edmama = juan + edana + edalbert;
+      System.out.println("Las edades son:");
+      System.out.println("Alberto:" + edalbert);
+      System.out.println("Juan:" + juan);
+      System.out.println("Ana:" + edana);
+      System.out.println("Mama:" + edmama);
+      
+    
+      
+      
+      
+              
+      
+              
+              
+    }
+}
